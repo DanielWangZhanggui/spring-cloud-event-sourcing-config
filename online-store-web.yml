@@ -53,10 +53,10 @@ security:
   enable-csrf: false
   oauth2:
     resource:
-      userInfoUri: http://user-service:8181/uaa/user
+      userInfoUri: http://180.101.190.2251:30606/uaa/user
     client:
-      accessTokenUri: http://user-service:8181/uaa/oauth/token
-      userAuthorizationUri: http://user-service:8181/uaa/oauth/authorize
+      accessTokenUri: http://180.101.190.2251:30606/uaa/oauth/token
+      userAuthorizationUri: http://180.101.190.2251:30606/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 eureka:
