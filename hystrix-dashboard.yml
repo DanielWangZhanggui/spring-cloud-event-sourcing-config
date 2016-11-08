@@ -17,7 +17,7 @@ spring:
   profiles: docker
 turbine:
   aggregator:
-    clusterConfig: INVENTORY-SERVICE,USER-SERVICE,CATALOG-SERVICE
+    clusterConfig: MAIN
   appConfig: inventory-service,user-service,catalog-service
 eureka:
   instance:

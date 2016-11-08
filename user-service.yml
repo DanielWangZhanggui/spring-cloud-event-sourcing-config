@@ -38,6 +38,8 @@ eureka:
   instance:
     prefer-ip-address: true
     non-secure-port: 8181
+    metadata-map:
+      cluster: MAIN
   client:
     registerWithEureka: true
     fetchRegistry: true

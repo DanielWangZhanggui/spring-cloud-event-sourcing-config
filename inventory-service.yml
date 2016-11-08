@@ -22,6 +22,8 @@ spring:
 eureka:
   instance:
     prefer-ip-address: true
+    metadata-map:
+      cluster: MAIN
   client:
     registerWithEureka: true
     fetchRegistry: true
