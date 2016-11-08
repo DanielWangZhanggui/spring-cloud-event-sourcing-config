@@ -54,7 +54,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://${DOCKER_IP:192.168.99.100}:8181/uaa/user
+      userInfoUri: http://180.101.190.2251:30606/uaa/user
     client:
       client-id: acme
   enable-csrf: false

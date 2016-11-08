@@ -48,7 +48,7 @@ zuul:
       url: http://edge-service:9999
     auth-service:
       path: /user/**
-      url: http://user-service:8181/uaa/user
+      url: http://180.101.190.2251:30606/uaa/user
 security:
   enable-csrf: false
   oauth2:
