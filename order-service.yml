@@ -41,7 +41,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://180.101.190.225:30606/uaa/user
+      userInfoUri: http://192.168.10.106:30606/uaa/user
     client:
       client-id: acme
 eureka:
