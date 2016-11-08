@@ -1,16 +1,6 @@
 spring:
   profiles:
-    active: development
----
-server:
-  contextPath: /uaa
-security:
-  user:
-    password: password
-  enable-csrf: false
-spring:
-  profiles: cloud
-security.ignored: /resources/**
+    active: docker
 ---
 server:
   port: 8181
