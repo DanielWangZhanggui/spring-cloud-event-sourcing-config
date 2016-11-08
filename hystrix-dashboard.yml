@@ -19,6 +19,7 @@ turbine:
   aggregator:
     clusterConfig: MAIN
   appConfig: inventory-service,user-service,catalog-service
+  clusterNameExpression: metadata['cluster']
 eureka:
   instance:
     prefer-ip-address: true
