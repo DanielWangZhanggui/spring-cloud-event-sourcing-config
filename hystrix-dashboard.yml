@@ -15,6 +15,10 @@ eureka:
 ---
 spring:
   profiles: docker
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: inventory-service,user-service,catalog-service
 eureka:
   instance:
     prefer-ip-address: true
