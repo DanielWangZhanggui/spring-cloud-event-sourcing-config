@@ -33,7 +33,7 @@ spring:
     username: root
     password: dbpass
     initialize: true
-security.ignored: /hystrix.stream,/resources/**
+security.ignored: /resources/**
 eureka:
   instance:
     prefer-ip-address: true
