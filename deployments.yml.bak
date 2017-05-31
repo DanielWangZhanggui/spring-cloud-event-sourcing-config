@@ -11,7 +11,9 @@ items:
       kubernetes-admin.caicloud.io/application: account-service
       kubernetes-admin.caicloud.io/type: application
     name: account-service
+    namespace: micosvc
     resourceVersion: "6250379"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/account-service
     uid: ae58b447-bc27-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -71,7 +73,9 @@ items:
       kubernetes-admin.caicloud.io/application: catalog-service
       kubernetes-admin.caicloud.io/type: application
     name: catalog-service
+    namespace: micosvc
     resourceVersion: "6249596"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/catalog-service
     uid: 07320d90-bc28-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -130,7 +134,9 @@ items:
     labels:
       kubernetes-admin.caicloud.io/type: application
     name: config-service
+    namespace: micosvc
     resourceVersion: "6249262"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/config-service
     uid: 1ab1b5de-a584-11e6-bf90-0800274a55b6
   spec:
     replicas: 1
@@ -189,7 +195,9 @@ items:
       kubernetes-admin.caicloud.io/tag-62848709-2125-40d9-9a17-0f54ed0e35d4: 62848709-2125-40d9-9a17-0f54ed0e35d4
       kubernetes-admin.caicloud.io/type: application
     name: discovery-service
+    namespace: micosvc
     resourceVersion: "6247301"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/discovery-service
     uid: d393edc8-a584-11e6-bf90-0800274a55b6
   spec:
     replicas: 1
@@ -246,7 +254,9 @@ items:
       kubernetes-admin.caicloud.io/application: edge-service
       kubernetes-admin.caicloud.io/type: application
     name: edge-service
+    namespace: micosvc
     resourceVersion: "6252223"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/edge-service
     uid: 5135ab73-bc27-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -306,7 +316,9 @@ items:
       kubernetes-admin.caicloud.io/application: hystrix-dashboard
       kubernetes-admin.caicloud.io/type: application
     name: hystrix-dashboard
+    namespace: micosvc
     resourceVersion: "6247664"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/hystrix-dashboard
     uid: 2012c9a4-bc26-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -366,7 +378,9 @@ items:
       kubernetes-admin.caicloud.io/application: inventory-service
       kubernetes-admin.caicloud.io/type: application
     name: inventory-service
+    namespace: micosvc
     resourceVersion: "6247878"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/inventory-service
     uid: e915f8db-bc27-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -426,7 +440,9 @@ items:
       kubernetes-admin.caicloud.io/application: mongo
       kubernetes-admin.caicloud.io/type: application
     name: mongo
+    namespace: micosvc
     resourceVersion: "6245358"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/mongo
     uid: fa4fce55-bc2b-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -483,7 +499,9 @@ items:
       kubernetes-admin.caicloud.io/application: mysql
       kubernetes-admin.caicloud.io/type: application
     name: mysql
+    namespace: micosvc
     resourceVersion: "6243194"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/mysql
     uid: 5035e332-bc26-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -545,7 +563,9 @@ items:
       kubernetes-admin.caicloud.io/application: neo4j
       kubernetes-admin.caicloud.io/type: application
     name: neo4j
+    namespace: micosvc
     resourceVersion: "6245864"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/neo4j
     uid: 876837ec-bc26-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -605,7 +625,9 @@ items:
       kubernetes-admin.caicloud.io/application: online-store-web
       kubernetes-admin.caicloud.io/type: application
     name: online-store-web
+    namespace: micosvc
     resourceVersion: "6248355"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/online-store-web
     uid: 9f7019c0-bc28-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -665,7 +687,9 @@ items:
       kubernetes-admin.caicloud.io/application: order-service
       kubernetes-admin.caicloud.io/type: application
     name: order-service
+    namespace: micosvc
     resourceVersion: "6252797"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/order-service
     uid: 681fce45-bc2c-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -726,7 +750,9 @@ items:
       kubernetes-admin.caicloud.io/tag-cc601d0b-c2d4-4f08-b777-1521f756d51f: cc601d0b-c2d4-4f08-b777-1521f756d51f
       kubernetes-admin.caicloud.io/type: application
     name: redis
+    namespace: micosvc
     resourceVersion: "6238069"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/redis
     uid: a0ef088f-a57f-11e6-bf90-0800274a55b6
   spec:
     replicas: 1
@@ -783,7 +809,9 @@ items:
       kubernetes-admin.caicloud.io/application: shopping-cart-service
       kubernetes-admin.caicloud.io/type: application
     name: shopping-cart-service
+    namespace: micosvc
     resourceVersion: "6250097"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/shopping-cart-service
     uid: 68bc6d8a-bc28-11e6-a716-0800274a55b6
   spec:
     replicas: 1
@@ -843,7 +871,9 @@ items:
       kubernetes-admin.caicloud.io/application: user-service
       kubernetes-admin.caicloud.io/type: application
     name: user-service
+    namespace: micosvc
     resourceVersion: "6251162"
+    selfLink: /apis/extensions/v1beta1/namespaces/micosvc/deployments/user-service
     uid: 0d39eb21-bc27-11e6-a716-0800274a55b6
   spec:
     replicas: 1

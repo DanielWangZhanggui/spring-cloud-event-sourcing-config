@@ -49,7 +49,7 @@ zuul:
 security:
   oauth2:
     resource:
-      userInfoUri: http://192.168.32.41:30606/uaa/user
+      userInfoUri: http://192.168.16.164:30606/uaa/user
   ignored: /catalog/**
 eureka:
   instance:
